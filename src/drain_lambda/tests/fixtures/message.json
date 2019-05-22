@@ -1,0 +1,13 @@
+{
+    "Service": "AWS Auto Scaling",
+    "Time": "2016-09-30T20: 42: 11.305Z",
+    "RequestId": "18b2ec17-3e9b-4c15-8024-ff2e8ce8786a",
+    "LifecycleActionToken": "71514b9d-6a40-4b26-8523-05e7ee35fa40",
+    "AccountId": "123456789012",
+    "AutoScalingGroupName": "sandbox-dev-0-ecs-cluster-ECSAutoScalingGroup-1EXIGN6LTDD0M",
+    "LifecycleHookName": "terminateLifecycleHook",
+    "EC2InstanceId": "i-00682a39163dafc90",
+    "LifecycleTransition": "autoscaling: EC2_INSTANCE_TERMINATING",
+    "NotificationMetadata": null
+       
+}

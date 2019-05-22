@@ -1,0 +1,5 @@
+{
+    "clusterArns": [
+        "arn:aws:ecs:us-west-2:631042910881:cluster/sandbox-dev-0-ecs_cluster"
+    ]
+}

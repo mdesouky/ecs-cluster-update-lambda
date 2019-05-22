@@ -1,0 +1,124 @@
+{
+    "AutoScalingGroups": [
+        {
+            "AutoScalingGroupName": "sandbox-dev-0-ecs-cluster-ECSAutoScalingGroup-1EXIGN6LTDD0M",
+            "AutoScalingGroupARN": "arn:aws:autoscaling:us-west-2:631042910881:autoScalingGroup:7a7eb0ab-8704-4e60-ab96-b356c0ffb729:autoScalingGroupName/sandbox-dev-0-ecs-cluster-ECSAutoScalingGroup-1EXIGN6LTDD0M",
+            "LaunchConfigurationName": "sandbox-dev-0-ecs-cluster-ECSLaunchConfiguration-1E68FS5CE5FPN",
+            "MinSize": 2,
+            "MaxSize": 30,
+            "DesiredCapacity": 2,
+            "DefaultCooldown": 300,
+            "AvailabilityZones": [
+                "us-west-2a",
+                "us-west-2b"
+            ],
+            "LoadBalancerNames": [],
+            "TargetGroupARNs": [],
+            "HealthCheckType": "EC2",
+            "HealthCheckGracePeriod": 0,
+            "Instances": [
+                {
+                    "InstanceId": "i-0752f3dd02dd6fba1",
+                    "AvailabilityZone": "us-west-2b",
+                    "LifecycleState": "InService",
+                    "HealthStatus": "Healthy",
+                    "LaunchConfigurationName": "sandbox-dev-0-ecs-cluster-ECSLaunchConfiguration-1E68FS5CE5FPN",
+                    "ProtectedFromScaleIn": false
+                },
+                {
+                    "InstanceId": "i-077a1104c2131e3fe",
+                    "AvailabilityZone": "us-west-2a",
+                    "LifecycleState": "InService",
+                    "HealthStatus": "Healthy",
+                    "LaunchConfigurationName": "sandbox-dev-0-ecs-cluster-ECSLaunchConfiguration-1E68FS5CE5FPN",
+                    "ProtectedFromScaleIn": false
+                }
+            ],
+            "CreatedTime": "2017-11-28T03:30:16.097Z",
+            "SuspendedProcesses": [],
+            "VPCZoneIdentifier": "subnet-5437f11c,subnet-ebbf1f8d",
+            "EnabledMetrics": [],
+            "Tags": [
+                {
+                    "ResourceId": "sandbox-dev-0-ecs-cluster-ECSAutoScalingGroup-1EXIGN6LTDD0M",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "Name",
+                    "Value": "sandbox-dev-0-ecs_cluster",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "sandbox-dev-0-ecs-cluster-ECSAutoScalingGroup-1EXIGN6LTDD0M",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "sandbox-dev-0-ecs-cluster",
+                    "PropagateAtLaunch": true
+                }
+            ],
+            "TerminationPolicies": [
+                "Default"
+            ],
+            "NewInstancesProtectedFromScaleIn": false,
+            "ServiceLinkedRoleARN": "arn:aws:iam::631042910881:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling"
+        },
+        {
+            "AutoScalingGroupName": "sandbox-tst-0-ecs-cluster-ECSAutoScalingGroup-I84JG3ERCCCK",
+            "AutoScalingGroupARN": "arn:aws:autoscaling:us-west-2:631042910881:autoScalingGroup:69b1bd80-440c-4d74-8533-16c05171ab62:autoScalingGroupName/sandbox-tst-0-ecs-cluster-ECSAutoScalingGroup-I84JG3ERCCCK",
+            "LaunchConfigurationName": "sandbox-tst-0-ecs-cluster-ECSLaunchConfiguration-1SEOJ30BJZR05",
+            "MinSize": 2,
+            "MaxSize": 6,
+            "DesiredCapacity": 2,
+            "DefaultCooldown": 300,
+            "AvailabilityZones": [
+                "us-west-2a",
+                "us-west-2b"
+            ],
+            "LoadBalancerNames": [],
+            "TargetGroupARNs": [],
+            "HealthCheckType": "EC2",
+            "HealthCheckGracePeriod": 0,
+            "Instances": [
+                {
+                    "InstanceId": "i-02c1940ac22eb0544",
+                    "AvailabilityZone": "us-west-2a",
+                    "LifecycleState": "InService",
+                    "HealthStatus": "Healthy",
+                    "LaunchConfigurationName": "sandbox-tst-0-ecs-cluster-ECSLaunchConfiguration-1SEOJ30BJZR05",
+                    "ProtectedFromScaleIn": false
+                },
+                {
+                    "InstanceId": "i-04615c2332a943b10",
+                    "AvailabilityZone": "us-west-2b",
+                    "LifecycleState": "InService",
+                    "HealthStatus": "Healthy",
+                    "LaunchConfigurationName": "sandbox-tst-0-ecs-cluster-ECSLaunchConfiguration-1SEOJ30BJZR05",
+                    "ProtectedFromScaleIn": false
+                }
+            ],
+            "CreatedTime": "2018-08-28T02:56:51.706Z",
+            "SuspendedProcesses": [],
+            "VPCZoneIdentifier": "subnet-035069606c4d4a816,subnet-0b3c40e3bb076c9a5",
+            "EnabledMetrics": [],
+            "Tags": [
+                {
+                    "ResourceId": "sandbox-tst-0-ecs-cluster-ECSAutoScalingGroup-I84JG3ERCCCK",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "Name",
+                    "Value": "sandbox-tst-0-ecs_cluster",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "sandbox-tst-0-ecs-cluster-ECSAutoScalingGroup-I84JG3ERCCCK",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "sandbox-tst-0-ecs-cluster",
+                    "PropagateAtLaunch": true
+                }
+            ],
+            "TerminationPolicies": [
+                "Default"
+            ],
+            "NewInstancesProtectedFromScaleIn": false,
+            "ServiceLinkedRoleARN": "arn:aws:iam::631042910881:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "containerInstanceArns": [
+        "arn:aws:ecs:us-west-2:631042910881:container-instance/sandbox-dev-0-ecs_cluster/72cbcfc612824371b9e0bae2b785d391",
+        "arn:aws:ecs:us-west-2:631042910881:container-instance/sandbox-dev-0-ecs_cluster/a8da21d130a64b118f86b3f211a38d54",
+        "arn:aws:ecs:us-west-2:631042910881:container-instance/sandbox-dev-0-ecs_cluster/c5050ea3275042b3913fd4255d46590a",
+        "arn:aws:ecs:us-west-2:631042910881:container-instance/sandbox-dev-0-ecs_cluster/d714986f2e4e4434940b873c50e87075",
+        "arn:aws:ecs:us-west-2:631042910881:container-instance/sandbox-dev-0-ecs_cluster/f54c3b825a724ea08dbcf91357a274b0",
+        "arn:aws:ecs:us-west-2:631042910881:container-instance/5eaa1b32-aff3-43ee-aa98-af7b413c743d",
+        "arn:aws:ecs:us-west-2:631042910881:container-instance/771a21ed-401b-48ee-9521-e346b359d6c6",
+        "arn:aws:ecs:us-west-2:631042910881:container-instance/af1b00a8-235e-47b5-8cca-4829b3e6eab2",
+        "arn:aws:ecs:us-west-2:631042910881:container-instance/d2ada6c6-2763-4fb1-b2f0-c9a3f3b72bcd",
+        "arn:aws:ecs:us-west-2:631042910881:container-instance/fb1c0de2-8a3c-407f-a197-2f9a392a5ba8"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "taskArns": [
+        "arn:aws:ecs:us-west-2:631042910881:task/sandbox-dev-0-ecs_cluster/006782a6e9ed4254a62ef469e5f2064b",
+        "arn:aws:ecs:us-west-2:631042910881:task/6d9fda3c-9f2e-4342-82b2-9a25342bcca4",
+        "arn:aws:ecs:us-west-2:631042910881:task/bd0ef807-8fe4-4e19-ae0e-494b9df35772"
+    ]
+}
